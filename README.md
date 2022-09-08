@@ -1,6 +1,6 @@
 # database-experience-no-sql-dio
 
-##O que é um banco de dados relacional?
+#O que é um banco de dados relacional?
 
 São os bancos que normalmente estão normalizados, 
 que garante um esquema sem duplicidade, 
@@ -10,9 +10,9 @@ Banco que garante a integridade integridade dos dados.
 
 Como temos um esquema forte, as consultas de dados se tornam relativamente simples, já que você sempre vai receber o esquema por completo.
 
-###Exemplos: MySQL, PostgreSQL, SQL Server.
+#Exemplos: MySQL, PostgreSQL, SQL Server.
 
-##O que é um banco NoSQL?
+#O que é um banco NoSQL?
 
 É uma alternativa a bancos relacionais, 
 os bancos NoSQL não estão aqui para substituir os bancos relacionais.
@@ -21,16 +21,16 @@ Como o volume de dados que um banco NoSQL consegue armazenar é gigante, sem cre
 
 Um ponto de atenção no uso de bancos NoSQl é a definição das chaves, já que não temos a garantia que os dados estarão dentro do mesmo esquema/padrão, precisamos ter alguma forma de consulta.
 
-###Exemplos: MongoDB, DynamoDB, Redis.
+#Exemplos: MongoDB, DynamoDB, Redis.
 
-##Casos de uso:
+#Casos de uso:
 
-##Bancos Relacionais:
+#Bancos Relacionais:
 
 Um bom exemplo de uso é em um Ecommerce, onde temos ali a estrutura do pedido, que precisar ser estruturado, que se relaciona com outras tabelas, como cadastro do cliente, condições de pagamento, estoque e etc.
 Um outro exemplo seria as transações financeiras, teríamos um caos generalizado no dia a dia dos bancos sem um esquema de dados rígido no dia a dia.
 
-##Bancos NoSQL:
+#Bancos NoSQL:
 
 Podem ser utilizados quando precisamos de alto armazenamento juntamente com performance, ou quando precisamos de escalabilidade horizontal.
 Suporte nativo a replicação também é um bom fator na escolha de uso do NoSQL.
