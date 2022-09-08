@@ -1,6 +1,6 @@
 # database-experience-no-sql-dio
 
-#O que é um banco de dados relacional?
+## O que é um banco de dados relacional?
 
 São os bancos que normalmente estão normalizados, 
 que garante um esquema sem duplicidade, 
